@@ -40,5 +40,5 @@ function findTheCheese (foods) {
 }
 
 function wordsWithB (words){
-  return words.
+  return words[0];
 }
