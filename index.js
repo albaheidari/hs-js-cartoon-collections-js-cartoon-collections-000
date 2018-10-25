@@ -1,14 +1,16 @@
 function dwarfRollCall(dwarves) {
+
  let enanos = [];
   for(let i = 0; i < dwarves.length;i++){
      enanos.push((i + 1) + ". "+ dwarves[i] + " ");        
   }
    return enanos.join('');
-}
+ }
+
 
 
 function summonCaptainPlanet(planeteerCalls){
-  const capitan =[] ;
+  let capitan =[] ;
   for( let i = 0; i < planeteerCalls.length;i++){
     capitan.push(planeteerCalls[i].toUpperCase() + "!");
   }return capitan;
